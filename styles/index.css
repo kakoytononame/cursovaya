@@ -1,6 +1,6 @@
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: max-content;
     background-color: #F5F5F5;
     margin: 0;
     font-family: Montserrat,'Open Sans',sans-serif;
@@ -8,17 +8,17 @@ body{
 
 .Main_screen{
     width: 100%;
-    height: inherit;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
 
 .Left_menu_items{
-    width: 10%;
-    height: 100%;
+    width: 15%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #272343
+    background-color: #272343;
 }
 
 .Left_menu_items_container{
@@ -32,7 +32,7 @@ body{
 .Left_menu_item{
     width: 100%;
     height: 200px;
-    margin:0;
+    margin:20px auto;
     display: flex;
     flex-direction: row;
     border:0px #F5F5F5 solid;
@@ -61,18 +61,103 @@ body{
     width: 90%;
     height: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 .Work_zone_header{
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: #DCDCDC;
     display: flex;
     justify-content: left;
     text-align: center;
+    flex-direction: row;
 }
 
 .Work_zone_header_Text{
     margin: auto 0 auto 50px;
-    font-size: 24px;
+    font-size: 32px;
+    width: 30%;
+    text-align: left;
+}
+
+.inner_pages{
+    width: 60%;
+    margin: auto 20% auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inner_page{
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 5px;
+    color: white;
+}
+
+.ToProfile{
+    width: max-content;
+    height: max-content;
+    margin: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.ToProfile img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.MyPage_topBlock{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.MyPage_topBlock_leftSide{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Profile_image_and_Name{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Profile_image{
+    width: 300px;
+    height: 375px;
+    margin: auto;
+}
+
+.MyPage_topBlock_rightSide{
+    width: 70%;
+    height: 100%;
+}
+
+.Profile_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }

@@ -1,0 +1,12 @@
+.chat_module{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #272343;
+    margin: 5px;
+    border-radius: 5px;
+}
